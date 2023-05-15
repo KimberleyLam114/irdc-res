@@ -3312,7 +3312,7 @@ def build_graph_gpu_user_user(value):
 
 #
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8090)
+    app.run_server()
 
 # app.callback 里加上prevent_initial_callback=True,为了不要一开始就call back
 # 用判断条件来看是是否要trigger，用state，然后def里的参数需要input 和state 几个

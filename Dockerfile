@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 #CMD python app_alg.py
-CMD python app.py
+CMD python app2.py
